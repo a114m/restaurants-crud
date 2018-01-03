@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+GET     /api/restaurant                           controllers.RestaurantController.index(closed: Option[Int])
+POST    /api/restaurant                           controllers.RestaurantController.create
+PUT     /api/restaurant/:uuid                     controllers.RestaurantController.update(uuid: String)
+
+GET     /*path/                                   controllers.MainController.untrail(path: String)
