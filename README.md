@@ -4,10 +4,18 @@ An example of RESTful API that allows CRUD operations using PlayFramework
 
 ### Running the server
 
-Run this using sbt
+Run the server using sbt:
 
 ```bash
 sbt run
 ```
 
-The end-point supported is: <http://localhost:9000/api/restaurant>
+The supported end-point: <http://localhost:9000/api/restaurant>
+
+### Running specs
+
+Run tests using the command:
+
+```bash
+sbt test
+```
